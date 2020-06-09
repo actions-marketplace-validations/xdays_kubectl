@@ -3,6 +3,7 @@
 
 
 set -e
+set -x
 
 ts=$(date +%s)
 echo "$INPUT_KUBECONFIG" | base64 --decode > /tmp/config-$ts
