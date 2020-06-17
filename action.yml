@@ -1,11 +1,11 @@
-name: 'kubectl'
-description: 'The kubectl command line program as a GitHub Action'
+name: 'Kubectl for Self Runner'
+description: 'The kubectl command line with temp config as a GitHub Action'
 runs:
   using: 'docker'
   image: 'Dockerfile'
 branding:
   icon: 'terminal'
-  color: 'blue'
+  color: 'black'
 inputs:
   kubeconfig:
     description: 'base64 encoded .kube/config'
